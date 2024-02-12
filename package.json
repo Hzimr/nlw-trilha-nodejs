@@ -1,11 +1,10 @@
 {
-  "name": "polls",
+  "name": "nlw-expert-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/http/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +16,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@prisma/client": "5.9.1",
     "fastify": "^4.26.0",
     "zod": "^3.22.4"
   }
