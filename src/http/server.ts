@@ -7,7 +7,7 @@ import { voteOnPoll } from "./routes/vote-on-poll";
 const app = fastify()
 
 app.register(cookie, {
-  secret: `oi`,
+  secret: `oi`, //digite secret words
   hook: 'onRequest',
   parseOptions: {}
 })
