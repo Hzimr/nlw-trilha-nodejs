@@ -28,6 +28,6 @@ export async function voteOnPoll(app: FastifyInstance){
     })
     }
 
-    return reply.status(201).send()
+    return reply.status(201).send({ sessionId })
   }) 
 }
